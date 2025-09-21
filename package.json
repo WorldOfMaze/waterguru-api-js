@@ -16,7 +16,10 @@
     "typescript": "^5.6.3"
   },
   "files": [
-    "dist"
+    "dist/**/*",
+    "LICENSE",
+    "README.md",
+    "src/**/*"
   ],
   "keywords": [
     "api",
