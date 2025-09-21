@@ -1,6 +1,12 @@
-# waterguru-api-ts
+# waterguru-api-js
 
-[![NPM version](https://img.shields.io/npm/v/waterguru-api-ts)](https://www.npmjs.com/package/waterguru-api-ts)
+[![NPM version](https://img.shields.io/npm/v/waterguru-api-ts)](https://www.npmjs.com/package/waterguru-api-js)
+[![License](https://img.shields.io/npm/l/waterguru-api-ts)](https://github.com/WorldOfMaze/waterguru-api.ts/blob/main/LICENSE)
+[![Coverage Status](https://coveralls.io/repos/github/yourusername/waterguru-api-ts/badge.svg?branch=main)](https://coveralls.io/github/WorldOfMaze/waterguru-api-ts?branch=main)
+[![TypeScript](https://img.shields.io/badge/types-yes-blue)](#)
+[![Bundle size](https://img.shields.io/bundlephobia/minzip/waterguru-api-ts)](https://bundlephobia.com/package/waterguru-api-js)
+
+
 
 TypeScript client library for accessing the WaterGuru dashboard data.
 
@@ -8,7 +14,7 @@ TypeScript client library for accessing the WaterGuru dashboard data.
 
 ## Table of Contents
 
-- [waterguru-api-ts](#waterguru-api-ts)
+- [waterguru-api-js](#waterguru-api-js)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Quick Start](#quick-start)
@@ -26,11 +32,11 @@ TypeScript client library for accessing the WaterGuru dashboard data.
 ## Installation
 
 ```bash
-npm install waterguru-api-ts
+npm install waterguru-api-js
 # or
-yarn add waterguru-api-ts
+yarn add waterguru-api-js
 # or
-ban add water-guru-ts
+ban add water-guru-js
 ```
 
 ---

@@ -1,5 +1,8 @@
 {
   "author": "Steve Maze",
+  "bug": {
+    "url": "https://github.com/WorldOfMaze/waterguru-api.ts/issues"
+  },
   "dependencies": {
     "@aws-sdk/client-cognito-identity": "^3.893.0",
     "@aws-sdk/client-lambda": "^3.893.0",
@@ -21,6 +24,7 @@
     "README.md",
     "src/**/*"
   ],
+  "homepage": "https://github.com/WorldOfMaze/waterguru-api.ts/blob/main/README.md",
   "keywords": [
     "api",
     "typescript",
@@ -29,10 +33,15 @@
   "license": "MIT",
   "main": "dist/index.js",
   "name": "waterguru-api-js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WorldOfMaze/waterguru-api.ts"
+  },
   "scripts": {
     "build": "tsc",
     "lint": "eslint . --ext .ts",
     "prepare": "npm run build",
+    "publish:public": "npm run build && npm publish --access public",
     "test": "jest"
   },
   "types": "dist/index.d.ts",
