@@ -54,7 +54,6 @@
   "scripts": {
     "build": "tsup",
     "build:demo": "tsc -p tsconfig.demo.json",
-    "demo": "tsc -p tsconfig.demo.json || node demo/build/server.js",
     "lint": "eslint . --ext .ts",
     "prepare": "npm run build",
     "publish:public": "npm run build & npm publish --access public",
