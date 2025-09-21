@@ -56,7 +56,7 @@
     "build:demo": "tsc -p tsconfig.demo.json",
     "lint": "eslint . --ext .ts",
     "prepare": "npm run build",
-    "publish:public": "npm run build & npm publish --access public",
+    "publish:public": "tsup & npm publish --access public",
     "test": "jest"
   },
   "sideEffects": false,
