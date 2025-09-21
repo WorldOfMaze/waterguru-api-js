@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "outDir": "demo/build",
+    "paths": {
+      "@lib/*": ["../dist/*"]
+    },
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES2020"
+  },
+  "exclude": ["demo/build", "dist", "node_modules"],
+  "include": ["demo/**/*.ts"]
+}

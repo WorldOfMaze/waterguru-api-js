@@ -23,6 +23,16 @@ TypeScript client library for accessing the WaterGuru dashboard data.
     - [`getDashboard(): Promise<WaterGuruDashboard>`](#getdashboard-promisewatergurudashboard)
   - [Types](#types)
   - [Error Handling](#error-handling)
+  - [Demo](#demo)
+  - [Changelog](#changelog)
+    - [\[1.1.0\] - 2025-09-21](#110---2025-09-21)
+      - [Added](#added)
+      - [Fixed](#fixed)
+      - [Changed](#changed)
+    - [\[1.0.0\] - 2025-09-20](#100---2025-09-20)
+      - [Added](#added-1)
+      - [Fixed](#fixed-1)
+      - [Changed](#changed-1)
   - [Caveats \& Limitations](#caveats--limitations)
   - [License](#license)
   - [Credits](#credits)
@@ -124,6 +134,70 @@ try {
 ```
 
 ---
+
+## Demo
+
+A simple demonstration is included to show how to use the waterguru-api-ts library.
+
+1. Install dependencies
+   
+    ```bash
+    npm install
+    ```
+
+2. Build the library
+    ```bash
+    npm run build
+    ```
+
+3. Build the demo
+    ```bash
+    npm run build:demo
+    ```
+    Note: The following error will be displayed and can safely be ignored
+
+    > demo/server.ts:4:30 - error TS2792: Cannot find module '../../dist/index.js'. Did you mean
+    > to set the 'moduleResolution' option to 'nodenext', or to add aliases to the 'paths' option?
+    >
+    > 4 import { WaterGuruAPI } from "../../dist/index.js";
+
+4. Run the demo server
+    ```bash
+    npm run demo
+    ```
+
+    The server will start on http://localhost:3000
+
+5. Open the demo in a browser
+
+    Open http://localhost:3000 and enter your WaterGuru username and password.
+The dashboard data will be fetched and sample data displayed on the page.
+
+
+## Changelog
+
+### [1.1.0] - 2025-09-21
+
+#### Added
+* Added demo page and server
+* Updated build system to handle both distribution and demo
+  
+#### Fixed
+* N/A
+
+#### Changed
+* N/A
+* 
+### [1.0.0] - 2025-09-20
+
+#### Added
+* Initial release of waterguru-api-ts.
+  
+#### Fixed
+* N/A
+
+#### Changed
+* N/A
 
 ## Caveats & Limitations
 
