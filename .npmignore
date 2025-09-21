@@ -1,4 +1,0 @@
-tests/
-tsconfig.json
-*.test.ts
-.gitignore

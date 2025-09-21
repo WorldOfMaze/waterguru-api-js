@@ -1,10 +1,10 @@
 # waterguru-api-js
 
-[![NPM version](https://img.shields.io/npm/v/waterguru-api-ts)](https://www.npmjs.com/package/waterguru-api-js)
-[![License](https://img.shields.io/npm/l/waterguru-api-ts)](https://github.com/WorldOfMaze/waterguru-api.ts/blob/main/LICENSE)
-[![Coverage Status](https://coveralls.io/repos/github/yourusername/waterguru-api-ts/badge.svg?branch=main)](https://coveralls.io/github/WorldOfMaze/waterguru-api-ts?branch=main)
+[![NPM version](https://img.shields.io/npm/v/waterguru-api-js)](https://www.npmjs.com/package/waterguru-api-js)
+[![License](https://img.shields.io/npm/l/waterguru-api-js)](https://github.com/WorldOfMaze/waterguru-api-js/blob/main/LICENSE)
+[![Coverage Status](https://coveralls.io/repos/github/yourusername/waterguru-api-js/badge.svg?branch=main)](https://coveralls.io/github/WorldOfMaze/waterguru-api-js?branch=main)
 [![TypeScript](https://img.shields.io/badge/types-yes-blue)](#)
-[![Bundle size](https://img.shields.io/bundlephobia/minzip/waterguru-api-ts)](https://bundlephobia.com/package/waterguru-api-js)
+[![Bundle size](https://img.shields.io/bundlephobia/minzip/waterguru-api-js)](https://bundlephobia.com/package/waterguru-api-js)
 
 
 
@@ -44,7 +44,7 @@ ban add water-guru-js
 ## Quick Start
 
 ```ts
-import { WaterGuruAPI, WaterGuruDashboard } from 'waterguru-api-ts';
+import { WaterGuruAPI, WaterGuruDashboard } from 'waterguru-api-js';
 
 async function main() {
   try {
